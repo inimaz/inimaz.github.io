@@ -7,3 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 
+Take a look to some of the projects I have been working on:
