@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Guess your vote using Twitter"
 excerpt: "Combining Twitter API and NLP"
 header:
@@ -17,13 +18,15 @@ gallery:
 ![alt text](../../assets/images/twitter-vote/logo.jpg)
 
 **Initial note**:This proyect was done just before the Spanish elections of 10th November 2019.
-
+{: .notice--info}
+**Article not finished yet**
+{: .notice--warning}
 **Goal**:
 Can we guess the party that someone will vote just with their Twitter user?
 
 We are importing data from Spanish twitter accounts and analizing them with some basic NLP. The goal is a very basic one: We get someone´s last 200 tweets (that´s the limit of the Twitter API) and we predict the party she/he might vote.
 
-**Stack used**: Python, nltk (cleaning the data), sklearn (predictions) and Twitter API (to extract the tweets).
+**Stack used**: Python, nltk (cleaning the data), pandas (managing all the dataframes), sklearn (predictions) and Twitter API (to extract the tweets).
 
 # TL;DR
 
