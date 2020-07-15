@@ -38,7 +38,7 @@ sudoku:
     alt: "Solve any sudoku"
     title: "Solve any sudoku"
     excerpt: "This is a sudoku game done in Python. The backend is able to solve any 9x9 sudoku. I created as well a GUI
-	that generates random sudokus and give you hints on how to solve if you need help. "
+	that generates random sudokus and gives you hints on how to solve if you need help. "
     url: https://github.com/inimaz/Sudoku_solver
     btn_label: "Code"
     btn_class: "btn--primary"

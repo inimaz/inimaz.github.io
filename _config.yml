@@ -27,7 +27,7 @@ markdown: kramdown
 highlighter: rouge
 remote_theme:  "mmistakes/minimal-mistakes"
 
-
+og_image: /assets/images/bio-photo.jpg
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:

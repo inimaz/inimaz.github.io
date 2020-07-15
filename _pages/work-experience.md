@@ -14,14 +14,16 @@ author_profile: true
 ### Data scientist @ Alten
 *Mar 2020 - Present*
 <i class="fas fa-code"></i>: Java, Python
+<div class="card" markdown="1">
+	<p>Adapt Machine Learning algorithms to business cases:
+		* Optimization of machine learning algorithms
+		* Classification/prediction
+		* Image recognition
+		* RNNs
+		* Data lake management
+		* ETL …</p>
+</div>
 
-Adapt Machine Learning algorithms to business cases:
- * Optimization of machine learning algorithms
- * Classification/prediction
- * Image recognition
- * RNNs
- * Data lake management
- * ETL …
 
 ------------------
 ### Business Analyst @ Amadeus
