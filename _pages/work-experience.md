@@ -14,21 +14,21 @@ author_profile: true
 ### Data scientist @ Alten
 *Mar 2020 - Present*
 <i class="fas fa-code"></i>: Java, Python
-<div class="card" markdown="1">
-	<p>Adapt Machine Learning algorithms to business cases:
-		* Optimization of machine learning algorithms
-		* Classification/prediction
-		* Image recognition
-		* RNNs
-		* Data lake management
-		* ETL …</p>
-</div>
+
+Adapt Machine Learning algorithms to business cases:
+* Optimization of machine learning algorithms
+* Classification/prediction
+* Image recognition
+* RNNs
+* Data lake management
+* ETL
+
 
 
 ------------------
 ### Business Analyst @ Amadeus
 *Dec 2017 - Feb 2020*
-<i class="fas fa-code"></i>: Swagger, Postman, SQL, 
+<i class="fas fa-code"></i>: Swagger, Postman, SQL, Python, Jira
 
 Developing IT solutions for the industry of travel.
 I was working in the department of configuration solutions. We provided middleware and cloud-readiness solutions to the rest of Amadeus applications and customers.
