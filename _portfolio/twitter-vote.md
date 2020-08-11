@@ -92,7 +92,7 @@ So one can argue that:
 5. *PP tweets* can be confused with CS and VOX
 6. *VOX tweets* are the easiest to spot in both models (although some times missclassified to PP or CS)
 
-A surprising fact is that both models could tell if the author of the party was a right-wing or left-wing voter.
+A surprising fact is that both models could tell if the author of the tweet was a right-wing or left-wing voter.
 
 ## Recall and precission
 ![Classification report](../../assets/images/twitter-vote/classification_report.png )
@@ -106,8 +106,6 @@ For email spam classifier, we want to minimize false positives (emails that are 
 For cancer detection, we want to minimize false negatives (people that have cancer but our classifier flags as negative). Therefore we want to maximize recall.
 
 It would be then up to the user of these models, to decide which of the 2 to use in which case. 
-What percentage of tweets are VOX-like? Maximize precission.
-What percentage of tweets
 
 # Try to guess the vote of a twitter user
 Let's try to predict the vote of a real user (me).
@@ -173,3 +171,5 @@ Blocking point for 1. Googletrans has a limit of 15k char per request. And might
 ## Locating tweets in map
 
 Most of the users have their location turned off. This is wise for a public figure, but for this poject means we cannot locate their tweets.
+
+#

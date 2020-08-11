@@ -70,8 +70,8 @@ asbronomers:
 ## Personal projects
 
 Take a look to some of the projects I have been working on:
-{% include feature_row id="twitter-vote" type="left" %}
 {% include feature_row id="covid19" type="left" %}
+{% include feature_row id="twitter-vote" type="left" %}
 {% include feature_row id="understanding-tests" type="left" %}
 {% include feature_row id="sudoku" type="left" %}
 See <i class="fab fa-fw fa-github"></i>[My Github profile](https://github.com/inimaz) to follow the latest projects I have been working on.
