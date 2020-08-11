@@ -171,5 +171,3 @@ Blocking point for 1. Googletrans has a limit of 15k char per request. And might
 ## Locating tweets in map
 
 Most of the users have their location turned off. This is wise for a public figure, but for this poject means we cannot locate their tweets.
-
-#
