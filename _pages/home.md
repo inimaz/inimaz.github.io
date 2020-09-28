@@ -12,7 +12,7 @@ toc_icon: "rocket"
 
 <div class="card">
 	<div class="container">
-		<p>I am a data scientist/business analyst.<br>
+		<p>I am a data scientist/software developer.<br>
 
 		Officially, my job is to find insights in data that may help businesses take the best decissions.<br>  
 
