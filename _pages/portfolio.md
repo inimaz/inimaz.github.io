@@ -55,7 +55,7 @@ asbronomers:
     alt: "Asbronomers"
     title: "Asbronomers (blog)"
     excerpt: "Astronomy blog where we talk about the universe with a fun approach."
-    url: http://asbronomers.com/	
+    url: 	
     btn_label: "Website"
     btn_class: "btn--primary"
 ---
@@ -74,7 +74,15 @@ Take a look to some of the projects I have been working on:
 {% include feature_row id="twitter-vote" type="left" %}
 {% include feature_row id="understanding-tests" type="left" %}
 {% include feature_row id="sudoku" type="left" %}
-See <i class="fab fa-fw fa-github"></i>[My Github profile](https://github.com/inimaz) to follow the latest projects I have been working on.
+See <i class="fab fa-fw fa-github"></i>[My Github profile](https://github.com/inimaz) to follow the latest projects I have been working on.<br>
+<br>
+Well, or you can always spend some time testing this early implementation of the [game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in javascript.
+Every cell is either alive or dead. And then, depending on their neighbours, each cell either dies, is born or stays as is.
+Every time you click, it restarts and gives a random start value to each cell. It is a cool metaphor of how out of simplicity, complex forms can arise.
+<div class="container">
+	<iframe name="Game_of_life" src="https://editor.p5js.org/inimaz/embed/9IKR8IHOc" style='overflow: hidden; height: 100%; width: 100%;' frameborder="0" scrolling="no" id="iframe"></iframe>
+</div>
+
 
 ## Collaborations
 {% include feature_row id="vasco" type="left" %}
