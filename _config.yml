@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Iñigo Imaz"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Data Science + Astrophysics + Software development"
+  bio    : "Software development + Data Science"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -66,9 +66,6 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/inigo-imaz-chacon/"
-    - label: "COVID19 Dashboard"
-      icon: "fas fa-fw fa-link"
-      url: "https://dashboard-covid19data.herokuapp.com/"
       
 
 footer:

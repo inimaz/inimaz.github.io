@@ -2,7 +2,7 @@
 layout: single
 title: "Portfolio"
 header:
-    overlay_image: /assets/images/image_beach.jpeg
+    overlay_image: /assets/images/image_beach.jpg
 permalink: /portfolio/
 author_profile: true
 classes: wide
@@ -30,9 +30,9 @@ understanding-tests:
     title: "Understanding Bayesian tests"
     excerpt: "Test fail. There are false positive and false negatives. So if I take a test and the result is positive, how confident can I be that I am infected? Can I trust that test?
 	This is a tool that helps understand Bayesian tests, i.e. helps understand COVID19 tests or any othe test that replies with positive/negative output."
-    url: https://dashboard-covid19data.herokuapp.com/understanding-tests
-    btn_label: "Website"
-    btn_class: "btn--primary"
+    # url: https://dashboard-covid19data.herokuapp.com/understanding-tests
+    # btn_label: "Website"
+    # btn_class: "btn--primary"
 sudoku:
   - image_path: /assets/images/sudoku.png
     alt: "Solve any sudoku"
@@ -47,7 +47,7 @@ vasco:
     alt: "VASCO"
     title: "The VASCO"
     excerpt: "The Vanishing & Appearing Sources during a Century of Observations (VASCO) project aims at finding astro-physically interesting mismatches between historical sky surveys: ‘Which object flickered out from our celestial radar?’, ‘Which locations hint at astronomical spectacles to discover?’. This is a collaborative international project in which we aim to compare images from different telescopes to find rare phenomena in the universe."
-    url: https://vasconsite.wordpress.com/
+    url: https://vascoproject.org/
     btn_label: "Main website"
     btn_class: "btn--primary"	
 asbronomers:
@@ -66,24 +66,16 @@ asbronomers:
 
 **Libraries**: NumPy, Pandas, Scikit-learn, matplotlib, seaborn, nltk, BeautifulSoup, WEKA, tkinter
 
-
 ## Personal projects
 
 Take a look to some of the projects I have been working on:
-{% include feature_row id="covid19" type="left" %}
 {% include feature_row id="twitter-vote" type="left" %}
 {% include feature_row id="understanding-tests" type="left" %}
 {% include feature_row id="sudoku" type="left" %}
 See <i class="fab fa-fw fa-github"></i>[My Github profile](https://github.com/inimaz) to follow the latest projects I have been working on.<br>
 <br>
-Well, or you can always spend some time testing this early implementation of the [game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in javascript.
-Every cell is either alive or dead. And then, depending on their neighbours, each cell either dies, is born or stays as is.
-Every time you click, it restarts and gives a random start value to each cell. It is a cool metaphor of how out of simplicity, complex forms can arise.
-<div class="container">
-	<iframe name="Game_of_life" src="https://editor.p5js.org/inimaz/embed/9IKR8IHOc" style='overflow: hidden; height: 100%; width: 100%;' frameborder="0" scrolling="no" id="iframe"></iframe>
-</div>
-
 
 ## Collaborations
+
 {% include feature_row id="vasco" type="left" %}
 {% include feature_row id="asbronomers" type="left" %}

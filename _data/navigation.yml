@@ -1,10 +1,10 @@
 main:
   - title: "Home"
     url: /
-  - title: "Portfolio"
-    url: /portfolio/
   - title: "Work experience"
     url: /work-experience/
+  - title: "Side Projects"
+    url: /portfolio/
   - title: "Academic publications"
     url: /academic-publications/
   - title: "Certificates"

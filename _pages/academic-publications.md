@@ -3,7 +3,7 @@ title: Academic Publications
 layout: home
 author_profile: true
 header:
-    overlay_image: /assets/images/image_beach.jpeg
+  overlay_image: /assets/images/image_beach.jpg
 permalink: /academic-publications/
 collection: academic-publications
 classes: wide
@@ -14,7 +14,8 @@ link-years:
 ---
 
 ![Wordcloud of all the abstracts of the papers](../assets/images/wordcloud/wordcloud_abstracts.png "Wordcloud of all the abstracts of the papers mentioned below")
-{% comment %} Navigation shortcut. {% endcomment %}  
+{% comment %} Navigation shortcut. {% endcomment %}
+
 <p>
 Go to &nbsp;
 {% for year in page.link-years %}
