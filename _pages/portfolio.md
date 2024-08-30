@@ -2,11 +2,27 @@
 layout: single
 title: "Portfolio"
 header:
-    overlay_image: /assets/images/image_beach.jpg
+    overlay_image: https://images.unsplash.com/photo-1578829806467-54e94c45d5a2?q=80&w=2662&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 permalink: /portfolio/
 author_profile: true
 classes: wide
 
+keepOn:
+  - image_path: https://raw.githubusercontent.com/inimaz/keepon/main/docs/media/image.png
+    alt: "KeepOn"
+    title: "KeepOn"
+    excerpt: "KeepOn is a CLI(command-line interface) that helps you to keep track of your tasks. It is a tool that helps you to keep motivated and focused on your daily goals."
+    url: https://medium.com/@inigo.imazchacon/how-i-use-keepon-to-keep-up-with-my-tasks-507a08d8ee9c
+    btn_label: "Article"
+    btn_class: "btn--primary"
+codecarbon:
+  - image_path: /assets/images/codecarbon.png
+    alt: "CodeCarbon"
+    title: "CodeCarbon"
+    excerpt: "CodeCarbon is a Python package that helps you estimate the carbon footprint of your code. It is a tool that helps you understand the environmental impact of your code."
+    url: https://codecarbon.io/
+    btn_label: "Main website"
+    btn_class: "btn--primary"	
 twitter-vote:
   - image_path: /assets/images/twitter-vote/logo.jpg
     alt: "Twitter vote"
@@ -62,13 +78,12 @@ asbronomers:
 
 ## Skills
 
-**Tools**: Python, JAVA, Jupyter Notebook, SQL, Tableau, Git
-
-**Libraries**: NumPy, Pandas, Scikit-learn, matplotlib, seaborn, nltk, BeautifulSoup, WEKA, tkinter
+**Tools**: Python, Node.js, Jupyter Notebook, SQL, Tableau, Git
 
 ## Personal projects
 
 Take a look to some of the projects I have been working on:
+{% include feature_row id="keepOn" type="left" %}
 {% include feature_row id="twitter-vote" type="left" %}
 {% include feature_row id="understanding-tests" type="left" %}
 {% include feature_row id="sudoku" type="left" %}
@@ -77,5 +92,6 @@ See <i class="fab fa-fw fa-github"></i>[My Github profile](https://github.com/in
 
 ## Collaborations
 
+{% include feature_row id="codecarbon" type="left" %}
 {% include feature_row id="vasco" type="left" %}
 {% include feature_row id="asbronomers" type="left" %}
